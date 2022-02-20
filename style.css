@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 .header{
     position:fixed;
     height: 15vh;
@@ -171,6 +170,9 @@ body{
 .footer-mobile{
     width: 100%;
 
+}
+.footer-desktop{
+    display: none;
 }
 .desktop{
     display: none;
@@ -354,6 +356,8 @@ footer{
         display: flex;
     }
     .desktop{
+       
+        display: contents;
         background-color: #272727;
     }
     .vertical-line{
@@ -365,6 +369,7 @@ footer{
         height: auto;
         margin: auto;
         padding: 25px;
+        background-color: #272727;
     }
     .download{
         align-items: center;
@@ -421,10 +426,12 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: top;
+        background-color: #272727;
     }
     .copyright{
         text-align: right;
         height: 50px;
+        background-color: #272727;
     }
 
     
