@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Montserrat";
+    src: url("static/Montserrat-Medium.ttf") format("ttf");
+   }
 .header{
     position:fixed;
     height: 15vh;
@@ -414,8 +418,9 @@ footer{
         border-left: none;
         border-bottom: none;
         border-right: none;
+
     }
-    }
+    
     .semi-vertical2{
         width: 25%;
         border-left: none;
